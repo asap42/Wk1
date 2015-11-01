@@ -1,11 +1,8 @@
-SHOW TABLES;
-
-SELECT * 
-FROM AIRLINES A,
-     AIRPORTS R,
-     FLIGHTS F,
-     PLANES P,
-     WEATHER W;
+/*
+	# Wk 1 homework
+    # Student: Mauricio Sanchez
+    # Date: Nov 1st 2015
+*/
      
 -- Q1:     
 SELECT DEST, MAX(DISTANCE) 
